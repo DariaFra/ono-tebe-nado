@@ -149,7 +149,6 @@
     padding-left: 40px;
     padding-bottom: 27px;
 }
-
 .lots_card-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -196,7 +195,6 @@
     text-decoration: underline;
     text-underline-offset: 4px;
 }
-
 .card_text {
     position: relative;
     z-index: 3;
