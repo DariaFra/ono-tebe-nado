@@ -1,2 +1,2 @@
 # Ono tebe nado  
-[GitHub page](https://github.com/DariaFra/ono-tebe-nado).
+https://github.com/DariaFra/ono-tebe-nado
