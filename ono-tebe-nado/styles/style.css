@@ -14,7 +14,7 @@
 .header_menu {
     display: grid;
 }
-.header_menu-list{
+.header_menu-list {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 3fr 3fr;
@@ -28,17 +28,13 @@
     line-height: 21.13px;
     text-underline-offset: 4px;
 }
-.header_menu-link {
-    letter-spacing: 0.01em;
-}
-.header_menu-item_active .header_menu-link{
+.header_menu-item_active .header_menu-link {
     text-decoration: none;
 }
 .header_menu-item:nth-child(1) {
     list-style: none;
 }
-
-.header_logo-image {
+.header_logo-link {
     width: 148px;
     height: 105px;
 }
@@ -49,9 +45,7 @@
     padding: 5px 35px 5px 0;
 }
 .address {
-    letter-spacing: 0.01em;
     text-underline-offset: 4px;
-    
     font-size: 18px;
     line-height: 24px;
     font-style: normal;
@@ -90,7 +84,7 @@
 }
 .aligned-text {
     line-height: 115px;
-    letter-spacing: 0.3em;
+    letter-spacing: 30px;
     font-size: 100px;
     text-transform: uppercase;
     font-weight: 700;
@@ -103,7 +97,7 @@
     line-height: 100px;
 }
 .letter-spacing-extended {
-    letter-spacing: 0.6em;
+    letter-spacing: 60px;
 }
 .no-letter-spacing {
     letter-spacing: normal;
@@ -156,7 +150,7 @@
     padding-bottom: 27px;
 }
 
-.lots_card-list{
+.lots_card-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 25px;
@@ -214,7 +208,7 @@
 .lots_look-more-link {
     font-size: 20px;
     font-weight: 400;
-    line-height: 23.48px;
+    line-height: 25px;
     text-underline-offset: 4px;
     padding-left: 40px;
 }
@@ -256,7 +250,6 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.01em;
     padding-left: 22px;
 }
 .about_text:first-of-type {
@@ -314,7 +307,7 @@
     justify-content: end;
     justify-self: end;
 }
-.footer_social-icon {
+.footer_social-link {
     width: 48px;
     height: 48px;  
 }
