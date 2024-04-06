@@ -24,6 +24,8 @@
     font-size: 18px;
     line-height: 21.13px;
     text-underline-offset: 4px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
 }
 .header_menu-item_active .header_menu-link {
     text-decoration: none;
@@ -54,8 +56,8 @@
     position: relative;
     background: url(../images/cover.jpg) center no-repeat;
     background-size: cover;
-    height: 757px;
-    color: #FFFFFF;
+    max-height: 757px;
+    color: #FFF;
     display: grid;
     grid-template-rows: 3fr 1fr;
 }
@@ -123,8 +125,8 @@
     line-height: 26px;
     text-transform: uppercase;
     text-align: center;
-    color: #FFFFFF;
-    border: #FFFFFF solid 1px;
+    color: #FFF;
+    border: #FFF solid 1px;
     padding: 12px 32px 11px 31px;
 }
 .lots {
@@ -143,10 +145,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 25px;
     list-style: none;
-    margin-bottom: 30px;
 }
 .card-link {
-    color: #FFFFFF;
+    color: #FFF;
     text-decoration: none;
 }
 .card {
@@ -154,24 +155,18 @@
     align-content: space-between;
     padding: 51px 40px 48px 40px;
     position: relative;
+    min-width: 334px;
+    min-height: 563px;
 }
 .card_type_film {
-    background: url(../images/card-lot-01.jpg) center no-repeat;
-    background-size: cover;
-    width: 334px;
-    height: 563px;
+    background: url(../images/card-lot-01.jpg) center/cover no-repeat;
 }
 .card_type_book {
-    background: url(../images/card-lot-02.jpg) center no-repeat;
-    background-size: cover;
-    width: 334px;
-    height: 563px;
+    background: url(../images/card-lot-02.jpg) center/cover no-repeat;
 }
 .card_type_picture {
-    background: url(../images/card-lot-03.jpg) center no-repeat;
-    background-size: cover;
-    width: 334px;
-    height: 563px;
+    background: url(../images/card-lot-03.jpg) center/cover no-repeat;
+    
 }
 .card_title {
     position: relative;
@@ -192,11 +187,13 @@
     text-decoration: none;
 }
 .lots_look-more-link {
+    display: block;
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
     text-underline-offset: 4px;
     padding-left: 40px;
+    margin-top: 30px;
 }
 .about {
     padding: 37px 24px 13px 25px;
@@ -269,18 +266,14 @@
 .footer_menu-link_active .footer_menu-link {
     text-decoration: none;
 }
-.footer_social {
+.footer_social-list {
     display: grid;
     justify-self: end;
     align-self: start;
-}
-.footer_social-list {
-    display: grid;
-    grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 48px;
 }
 .footer_social-list-item {
-    margin-left: 48px;
     list-style: none;
     display: grid;
     justify-content: end;
