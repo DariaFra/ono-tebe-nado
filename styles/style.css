@@ -1,7 +1,4 @@
 /* место для вашего кода */
-
-/* Header */
-
 .header {
     margin: 92px 24px 45px 24px;
     padding: 0 25px;
@@ -50,9 +47,6 @@
     line-height: 24px;
     font-style: normal;
 }
-
-/* Cover section*/
-
 .cover {
     margin-top: 92px;
     margin-bottom: 20px;
@@ -65,7 +59,6 @@
     display: grid;
     grid-template-rows: 3fr 1fr;
 }
-
 .overlay {
     position: absolute;
     inset: 0;
@@ -134,10 +127,6 @@
     border: #FFFFFF solid 1px;
     padding: 12px 32px 11px 31px;
 }
-
-
-/* Lots section*/
-
 .lots {
     margin: 180px 24px 90px 24px;
 }
@@ -170,8 +159,7 @@
     background: url(../images/card-lot-01.jpg) center no-repeat;
     background-size: cover;
     width: 334px;
-    height: 563px;
-    
+    height: 563px; 
 }
 .card_type_book {
     background: url(../images/card-lot-02.jpg) center no-repeat;
@@ -210,9 +198,6 @@
     text-underline-offset: 4px;
     padding-left: 40px;
 }
-
-/* About section */
-
 .about {
     padding: 37px 24px 13px 25px;
 }
@@ -253,9 +238,6 @@
 .about_text:first-of-type {
     padding-bottom: 25px;
 }
-
-
-/* Footer */
 .footer {
     margin-top: 150px;
     margin-bottom: 80px;
@@ -287,7 +269,6 @@
 .footer_menu-link_active .footer_menu-link {
     text-decoration: none;
 }
-
 .footer_social {
     display: grid;
     justify-self: end;
@@ -309,5 +290,3 @@
     width: 48px;
     height: 48px;  
 }
-
-
