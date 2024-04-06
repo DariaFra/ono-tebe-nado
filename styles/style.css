@@ -159,7 +159,7 @@
     background: url(../images/card-lot-01.jpg) center no-repeat;
     background-size: cover;
     width: 334px;
-    height: 563px; 
+    height: 563px;
 }
 .card_type_book {
     background: url(../images/card-lot-02.jpg) center no-repeat;
@@ -188,7 +188,7 @@
     z-index: 3;
     font-size: 20px;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 24px;
     text-decoration: none;
 }
 .lots_look-more-link {
@@ -219,7 +219,7 @@
 }
 .about_logo-image {
     max-width: 148px;
-    max-height: 114px;  
+    max-height: 114px;
 }
 .about_text-title {
     margin: 100px 380px 100px 0 ;
@@ -260,7 +260,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    text-align: center; 
+    text-align: center;
 }
 .footer_menu-item {
     list-style: none;
@@ -288,5 +288,5 @@
 }
 .footer_social-link {
     width: 48px;
-    height: 48px;  
+    height: 48px;
 }
