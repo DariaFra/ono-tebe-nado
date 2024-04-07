@@ -13,20 +13,20 @@
 
 <body>
   <header class="header">
-    <nav class="header_menu">
-      <ul class="header_menu-list">
-        <li class="header_menu-item header_menu-item_active">
-          <a class="header_menu-link" href="#">главная</a>
+    <nav class="header__menu">
+      <ul class="header__menu-list">
+        <li class="header__menu-item header__menu-item_active">
+          <a class="header__menu-link" href="#">главная</a>
         </li>
-        <li class="header_menu-item">
-          <a class="header_menu-link" href="#">посмотреть&nbsp;лоты</a>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">посмотреть&nbsp;лоты</a>
         </li>
-        <li class="header_menu-item">
-          <a class="header_menu-link" href="#">об аукционе</a>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">об аукционе</a>
         </li>
       </ul>
     </nav>
-    <a class="header_logo-link">
+    <a class="header__logo-link">
       <img src="images/logo-black.svg" alt="Логотип">
     </a>
     <address class="address header_contacts">
@@ -38,29 +38,30 @@
   <main>
     <section class="cover">
       <div class="overlay"></div>
-      <h1 class="cover_title">
+      <h1 class="cover__title">
         <span class="aligned-text">о<span class="letter-spacing-extended">но</span></span>
         <span class="aligned-text aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
         <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span><span>ад</span><span
             class="no-letter-spacing">о</span></span>
       </h1>
-      <div class="cover_description">
-        <span class="cover_description-text">Аукцион
+      <div class="cover__description">
+        <span class="cover__description-text">Аукцион вещей, в которые никто не верил</span>
+        <!-- <span class="cover_description-text">Аукцион
           <span class="cover_description-text-center">вещей, в</span>
           <span class="cover_description-text-right">которые никто не верил</span>
-        </span>
+        </span> -->
         <button type="button" class="bet-button">Сделать ставку</button>
       </div>
     </section>
     <section class="lots">
-      <h2 class="lots_heading">Лоты</h2>
-      <ul class="lots_card-list">
+      <h2 class="lots__heading">Лоты</h2>
+      <ul class="lots__card-list">
         <li>
           <a href="#" class="card-link">
             <article class="card card_type_film">
               <div class="overlay"></div>
-              <h3 class="card_title">Фильм режиссёра, который бросил киношколу</h3>
-              <p class="card_text"> Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
+              <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+              <p class="card__text"> Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
                 знали, что режиссёр — Пол Томас Андерсон?</p>
             </article>
           </a>
@@ -69,8 +70,8 @@
           <a href="#" class="card-link">
             <article class="card card_type_book">
               <div class="overlay"></div>
-              <h3 class="card_title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-              <p class="card_text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
+              <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+              <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
                 древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная
                 с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на
                 «Улисса» Джеймса Джойса?</p>
@@ -81,28 +82,28 @@
           <a href="#" class="card-link">
             <article class="card card_type_picture">
               <div class="overlay"></div>
-              <h3 class="card_title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-              <p class="card_text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
+              <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+              <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
                 инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали,
                 что это — одна из революционных работ Кандинского?</p>
             </article>
           </a>
         </li>
       </ul>
-      <a href="#" class="lots_look-more-link">посмотреть больше</a>
+      <a href="#" class="lots__look-more-link">посмотреть больше</a>
     </section>
     <section class="about">
-      <div class="about_column">
-        <div class="about_logo">
-          <img class="about_logo-image" src="./images/logo-white.svg" alt="Логотип">
+      <div class="about__column">
+        <div class="about__logo">
+          <img class="about__logo-image" src="./images/logo-white.svg" alt="Логотип">
         </div>
-        <h2 class="about_text-title">Об аукционе</h2>
-        <p class="about_text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
+        <h2 class="about__text-title">Об аукционе</h2>
+        <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
           Наши лоты вообще не должны были попасть ни на один аукцион.
           Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок?
           Кому нужны все эти странные вещи, созданные любителями?
         </p>
-        <p class="about_text">Слишком сложные или, наоборот, слишком простые.
+        <p class="about__text">Слишком сложные или, наоборот, слишком простые.
           Опережающие своё время.
           В пух и прах растерзанные критиками.
           Непринятые и непонятые. Когда-то они казались просто неудачными.
@@ -121,32 +122,32 @@
       <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
       <p>наб. Принсенграхт 263-<br>265, Амстердам</p>
     </address>
-    <nav class="footer_menu">
-      <ul class="footer_menu-list">
-        <li class="footer_menu-item footer_menu-link_active">
-          <a class="footer_menu-link" href="#">главная</a>
+    <nav class="footer__menu">
+      <ul class="footer__menu-list">
+        <li class="footer__menu-item footer_menu-link_active">
+          <a class="footer__menu-link" href="#">главная</a>
         </li>
-        <li class="footer_menu-item">
-          <a class="footer_menu-link" href="#">посмотретьлоты</a>
+        <li class="footer__menu-item">
+          <a class="footer__menu-link" href="#">посмотретьлоты</a>
         </li>
-        <li class="footer_menu-item">
-          <a class="footer_menu-link" href="#">об аукционе</a>
+        <li class="footer__menu-item">
+          <a class="footer__menu-link" href="#">об аукционе</a>
         </li>
       </ul>
     </nav>
-    <ul class="footer_social-list">
-      <li class="footer_social-list-item">
-        <a href="#" class="footer_social-link">
+    <ul class="footer__social-list">
+      <li class="footer__social-list-item">
+        <a href="#" class="footer__social-link">
           <img src="./images/yt.svg" alt="youTube">
         </a>
       </li>
-      <li class="footer_social-list-item">
-        <a href="#" class="footer_social-link">
+      <li class="footer__social-list-item">
+        <a href="#" class="footer__social-link">
           <img src="./images/vk.svg" alt="vk">
         </a>
       </li>
-      <li class="footer_social-list-item">
-        <a href="#" class="footer_social-link">
+      <li class="footer__social-list-item">
+        <a href="#" class="footer__social-link">
           <img src="./images/pinterest.svg" alt="pinterest">
         </a>
       </li>
